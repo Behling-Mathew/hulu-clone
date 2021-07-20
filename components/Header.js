@@ -50,10 +50,21 @@ const Header = () => {
         className="flex flex-col items-center pr-4"
         style={{ minWidth: "150px" }}
       >
-        <Image className="min-w-full" src={logo} width={150} height={100} />
+        <Image
+          className="min-w-full"
+          src={logo}
+          width={150}
+          height={100}
+          alt="Hulu Clone Logo"
+        />
       </div>
       <AttributionContainer className="flex flex-col">
-        <TMDBLogo className="dbLogo" src={tmdbLogo} width={100} />
+        <TMDBLogo
+          className="dbLogo"
+          src={tmdbLogo}
+          width={100}
+          alt="TMDB Logo"
+        />
         <AttributionP className="leading-none pt-2 max-w-xs">
           This product uses the TMDb API but is not endorsed or certified by
           TMDb.
